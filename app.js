@@ -1,5 +1,6 @@
 const filterButtons = [...document.querySelectorAll(".filter-button")];
 const projectCards = [...document.querySelectorAll(".project-card")];
+const filterPanels = [...document.querySelectorAll("[data-filter-category]")];
 
 for (const button of filterButtons) {
   button.addEventListener("click", () => {
@@ -14,6 +15,10 @@ for (const button of filterButtons) {
     for (const card of projectCards) {
       const categories = card.dataset.categories.split(/\s+/);
       card.hidden = filter !== "all" && !categories.includes(filter);
+    }
+
+    for (const panel of filterPanels) {
+      panel.hidden = panel.dataset.filterCategory !== filter;
     }
   });
 }

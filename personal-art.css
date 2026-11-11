@@ -1,0 +1,484 @@
+.personal-art-main {
+  gap: 0;
+  padding-top: 96px;
+}
+
+.personal-art-content {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+}
+
+.art-heading--intro {
+  margin-bottom: 80px;
+}
+
+.personal-art-toolbar {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.art-category-panel,
+.print-category {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+}
+
+.art-category-panel--prints {
+  gap: 132px;
+}
+
+.art-category-panel[hidden] {
+  display: none;
+}
+
+.art-heading {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  color: #262626;
+  text-align: center;
+}
+
+.art-heading h1,
+.art-heading h2,
+.art-heading p {
+  margin: 0;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.art-heading--intro {
+  color: var(--ink);
+}
+
+.art-heading--intro h1,
+.art-heading--gallery h2 {
+  font-size: 51px;
+  letter-spacing: 1.02px;
+}
+
+.art-heading--intro p {
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: 0.56px;
+}
+
+.art-heading--gallery a {
+  color: #198bde;
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: 0.56px;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.art-heading--gallery a:hover {
+  text-decoration: underline;
+}
+
+.editor-gallery,
+.editor-feature-grid,
+.editor-sketch-grid,
+.feature-row,
+.instagram-gallery,
+.print-gallery {
+  width: 100%;
+}
+
+.editor-gallery,
+.editor-feature-grid,
+.editor-sketch-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+}
+
+.artwork,
+.instagram-art,
+.print-art {
+  position: relative;
+  display: block;
+  min-width: 0;
+  overflow: hidden;
+  margin: 0;
+  border-radius: 18.13px;
+  background: #f5f4f4;
+}
+
+.artwork img,
+.instagram-art > img:first-child,
+.print-art img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.feature-row {
+  display: grid;
+  gap: 24.9px;
+}
+
+.feature-row--two {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.feature-row--three {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.feature-row--uneven {
+  grid-template-columns: 0.475fr 1fr;
+  gap: 25.15px;
+}
+
+.artwork--wide {
+  width: 100%;
+}
+
+.artwork--feature-hero {
+  aspect-ratio: 1570 / 519.756;
+}
+
+.feature-row--wide .artwork {
+  aspect-ratio: 772.56 / 445.765;
+}
+
+.artwork--feature-wide {
+  aspect-ratio: 1570 / 654.294;
+}
+
+.feature-row--prints .artwork {
+  aspect-ratio: 769.643 / 498.845;
+}
+
+.feature-row--paintings .artwork {
+  aspect-ratio: 772.5 / 661.053;
+}
+
+.feature-row--portraits .artwork {
+  aspect-ratio: 506.685 / 651.168;
+}
+
+.artwork--feature-tall {
+  aspect-ratio: 1570 / 1157.813;
+}
+
+.artwork--feature-banner {
+  aspect-ratio: 1564.166 / 549.52;
+}
+
+.feature-row--uneven .artwork:first-child {
+  aspect-ratio: 497.33 / 711.231;
+}
+
+.feature-row--uneven .artwork:last-child {
+  aspect-ratio: 1047.516 / 711.984;
+}
+
+.feature-row--posters .artwork {
+  aspect-ratio: 506.537 / 718.978;
+}
+
+.artwork--feature-final {
+  aspect-ratio: 1570 / 613.047;
+}
+
+.feature-row--sketches .artwork {
+  aspect-ratio: 508.7 / 726.939;
+  border-radius: 16px;
+}
+
+.artwork--sketch-wide {
+  aspect-ratio: 1570 / 906.865;
+  border-radius: 16px;
+}
+
+.feature-row--sketch-tall .artwork {
+  aspect-ratio: 774 / 997.558;
+  border-radius: 16px;
+}
+
+.feature-row--sketch-medium .artwork {
+  aspect-ratio: 774 / 955.565;
+  border-radius: 16px;
+}
+
+.instagram-gallery {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 24.96px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.instagram-art {
+  aspect-ratio: 373.746 / 465;
+  border-radius: 17.09px;
+}
+
+.instagram-art--square {
+  aspect-ratio: 1;
+}
+
+.instagram-art--shadow {
+  box-shadow: 0 4.271px 23.493px rgb(0 0 0 / 13%);
+}
+
+.instagram-art:nth-child(17) > img:first-child {
+  object-position: 59% center;
+}
+
+.instagram-art .instagram-art-overlay {
+  position: absolute;
+  top: 47.6%;
+  left: 2.08%;
+  width: 95.75%;
+  height: auto;
+  object-fit: contain;
+}
+
+.print-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24.9px;
+}
+
+.print-art {
+  aspect-ratio: 505 / 714;
+  border-radius: 17.05px;
+}
+
+.art-footer {
+  display: flex;
+  width: 100%;
+  max-width: 1568px;
+  min-height: 112px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 32px;
+  border-radius: 20px;
+  background: var(--lavender);
+  color: var(--ink);
+}
+
+.art-footer-spacer {
+  width: 144px;
+  flex: 0 0 144px;
+}
+
+.art-footer p {
+  flex: 1 1 auto;
+  margin: 0;
+  font-size: 15px;
+  letter-spacing: 0.6px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.back-to-top {
+  display: flex;
+  min-height: 48px;
+  flex: 0 0 auto;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 24px 8px 16px;
+  border-radius: 70px;
+  background: var(--ink);
+  color: var(--paper);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.56px;
+  text-decoration: none;
+}
+
+.back-to-top:hover {
+  background: #231d87;
+}
+
+.back-to-top img {
+  width: 24px;
+  height: 24px;
+  filter: brightness(0) invert(1);
+}
+
+.back-to-top:focus-visible,
+.art-heading a:focus-visible {
+  outline: 3px solid #7354ff;
+  outline-offset: 3px;
+}
+
+@media (max-width: 1199px) {
+  .personal-art-main {
+    padding-top: 72px;
+  }
+
+  .personal-art-content {
+    gap: 0;
+  }
+
+  .art-heading--intro {
+    margin-bottom: 64px;
+  }
+
+  .instagram-gallery {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 700px) {
+  .personal-art-main {
+    padding-top: 0;
+  }
+
+  .personal-art-content {
+    margin-top: 40px;
+    gap: 0;
+  }
+
+  .art-heading--intro {
+    margin-bottom: 48px;
+  }
+
+  .personal-art-toolbar {
+    margin-bottom: 32px;
+  }
+
+  .art-category-panel--prints {
+    gap: 80px;
+  }
+
+  .art-heading--intro h1,
+  .art-heading--gallery h2 {
+    font-size: 38px;
+    letter-spacing: 0.76px;
+  }
+
+  .art-heading--intro p,
+  .art-heading--gallery a {
+    font-size: 22px;
+    letter-spacing: 0.44px;
+  }
+
+  .editor-gallery,
+  .editor-feature-grid,
+  .editor-sketch-grid {
+    gap: 16px;
+  }
+
+  .feature-row,
+  .feature-row--two,
+  .feature-row--three,
+  .feature-row--uneven {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 16px;
+  }
+
+  .feature-row .artwork {
+    aspect-ratio: auto;
+    height: auto;
+  }
+
+  .feature-row .artwork img {
+    height: auto;
+  }
+
+  .feature-row--wide .artwork,
+  .feature-row--prints .artwork,
+  .feature-row--paintings .artwork,
+  .feature-row--portraits .artwork,
+  .feature-row--uneven .artwork,
+  .feature-row--posters .artwork,
+  .feature-row--sketches .artwork,
+  .feature-row--sketch-tall .artwork,
+  .feature-row--sketch-medium .artwork {
+    aspect-ratio: auto;
+  }
+
+  .feature-row .artwork img {
+    height: auto;
+    aspect-ratio: auto;
+  }
+
+  .feature-row--wide .artwork img {
+    aspect-ratio: 772.56 / 445.765;
+  }
+
+  .feature-row--prints .artwork img {
+    aspect-ratio: 769.643 / 498.845;
+  }
+
+  .feature-row--paintings .artwork img {
+    aspect-ratio: 772.5 / 661.053;
+  }
+
+  .feature-row--portraits .artwork img {
+    aspect-ratio: 506.685 / 651.168;
+  }
+
+  .feature-row--uneven .artwork:first-child img {
+    aspect-ratio: 497.33 / 711.231;
+  }
+
+  .feature-row--uneven .artwork:last-child img {
+    aspect-ratio: 1047.516 / 711.984;
+  }
+
+  .feature-row--posters .artwork img {
+    aspect-ratio: 506.537 / 718.978;
+  }
+
+  .feature-row--sketches .artwork img {
+    aspect-ratio: 508.7 / 726.939;
+  }
+
+  .feature-row--sketch-tall .artwork img {
+    aspect-ratio: 774 / 997.558;
+  }
+
+  .feature-row--sketch-medium .artwork img {
+    aspect-ratio: 774 / 955.565;
+  }
+
+  .instagram-gallery {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .print-gallery {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .art-footer {
+    min-height: 0;
+    flex-direction: column;
+    gap: 20px;
+    padding: 24px 16px;
+    border-radius: 12px;
+  }
+
+  .art-footer-spacer {
+    display: none;
+  }
+
+  .art-footer p {
+    font-size: 11px;
+    letter-spacing: 0.2px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .back-to-top {
+    transition: none;
+  }
+}
