@@ -563,6 +563,10 @@ a {
     margin-bottom: 50px;
   }
 
+  .filter-group {
+    background: var(--paper);
+  }
+
   .project-grid {
     width: min(100%, 392px);
   }
