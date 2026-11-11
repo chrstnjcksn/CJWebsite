@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#060150" />
+    <meta
+      name="description"
+      content="Portfolio of Christian Jackson, a digital artist and visual systems designer."
+    />
+    <title>Christian Jackson — Digital Artist &amp; Designer</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <div class="page-shell" id="top">
+      <aside class="desktop-rail" aria-label="Primary navigation">
+        <a class="brand-link" href="#top" aria-label="Christian Jackson home">
+          <img src="./public/assets/brand-mark.png" alt="" />
+        </a>
+
+        <nav class="rail-navigation" aria-label="Portfolio pages">
+          <a class="rail-link is-current" href="#top" aria-label="Work" aria-current="page">
+            <img src="./public/assets/icon-work.svg" alt="" />
+            <span class="rail-link-label" aria-hidden="true">Work</span>
+          </a>
+          <a
+            class="rail-link"
+            href="https://www.figma.com/proto/F0BdTJCjn0zjMowlaY52kU/Personal-Art?node-id=1-141&t=hxmG1kaAS4b7qS7L-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A141&page-id=0%3A1"
+            aria-label="Personal art"
+          >
+            <img src="./public/assets/icon-art.svg" alt="" />
+            <span class="rail-link-label" aria-hidden="true">Personal art</span>
+          </a>
+          <a
+            class="rail-link"
+            href="https://www.figma.com/proto/V4iBNOv0OHy3gOcvatjWwP/About?node-id=1-140&t=tWozvGBK4ArHwRSt-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A140&page-id=0%3A1"
+            aria-label="About"
+          >
+            <img src="./public/assets/icon-about.svg" alt="" />
+            <span class="rail-link-label" aria-hidden="true">About</span>
+          </a>
+          <a
+            class="rail-link"
+            href="https://www.figma.com/proto/0L2cQ3PrY207S2JnLJclKY/Resume?node-id=0-141&t=jGyYkCIMf4TGrZ0l-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=0%3A141&page-id=0%3A1"
+            aria-label="Resume"
+          >
+            <img src="./public/assets/icon-resume.svg" alt="" />
+            <span class="rail-link-label" aria-hidden="true">Resume</span>
+          </a>
+        </nav>
+
+        <a
+          class="instagram-link"
+          href="https://www.instagram.com/chrstnjcksn/"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="Instagram (opens in a new tab)"
+        >
+          <img src="./public/assets/icon-instagram.svg" alt="" />
+        </a>
+      </aside>
+
+      <main class="page-main">
+        <header class="mobile-header">
+          <a class="brand-link" href="#top" aria-label="Christian Jackson home">
+            <img src="./public/assets/brand-mark.png" alt="" />
+          </a>
+          <a
+            class="mobile-instagram-link"
+            href="https://www.instagram.com/chrstnjcksn/"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Instagram (opens in a new tab)"
+          >
+            <img src="./public/assets/icon-instagram.svg" alt="" />
+          </a>
+        </header>
+
+        <section class="intro" aria-labelledby="intro-title">
+          <h1 id="intro-title">
+            Hey! I’m Christian, a Digital Artist and Visual Systems Designer with a flexible
+            style to fit a brand just like yours.
+          </h1>
+        </section>
+
+        <section class="portfolio" aria-label="Selected portfolio work">
+          <div class="portfolio-toolbar">
+            <div class="filter-group" role="group" aria-label="Filter projects">
+              <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">
+                All
+              </button>
+              <button class="filter-button" type="button" data-filter="illustration" aria-pressed="false">
+                Illustration
+              </button>
+              <button class="filter-button" type="button" data-filter="ui-ux" aria-pressed="false">
+                UI / UX
+              </button>
+              <button class="filter-button" type="button" data-filter="print" aria-pressed="false">
+                Print
+              </button>
+            </div>
+
+          </div>
+
+          <div class="project-grid">
+            <a
+              class="project-card"
+              data-categories="ui-ux"
+              href="https://www.figma.com/proto/Ycfsfqq2sw6lIhj0z74GxH/Carelon?node-id=194-23791&t=nVogNalwLPpg1bTU-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=194%3A23791&page-id=0%3A1"
+              aria-label="View Carelon project"
+            >
+              <img src="./public/assets/carelon.png" alt="Carelon healthcare design project" />
+              <span class="card-action">Open Project</span>
+            </a>
+            <a
+              class="project-card"
+              data-categories="illustration print"
+              href="https://www.figma.com/proto/DMXR2josxTFCoFvsj7856h/Abbott?node-id=0-160&t=x0mxI33OhLtzdItG-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=0%3A160&page-id=0%3A1"
+              aria-label="View Abbott project"
+            >
+              <img src="./public/assets/abbott.png" alt="Abbott illustration of a cyclist" />
+              <span class="card-action">Open Project</span>
+            </a>
+            <a
+              class="project-card"
+              data-categories="illustration ui-ux"
+              href="https://www.figma.com/proto/X0etwZMkjWTow7NgfkUlxF/Anthem?node-id=156-1786&t=wwj5QoA6kFIUIMJg-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=156%3A1786&page-id=0%3A1"
+              aria-label="View Anthem project"
+            >
+              <img src="./public/assets/anthem.png" alt="Anthem wellness and sneaker illustration" />
+              <span class="card-action">Open Project</span>
+            </a>
+            <a
+              class="project-card"
+              data-categories="illustration ui-ux"
+              href="https://www.figma.com/proto/AqNuVcncSmLTh4AIRzP8dr/Google?node-id=0-197&t=kvEkRzMjVQRXcKtP-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=0%3A197&page-id=0%3A1"
+              aria-label="View Google project"
+            >
+              <img src="./public/assets/google.png" alt="Google mobile app design project" />
+              <span class="card-action">Open Project</span>
+            </a>
+            <a
+              class="project-card"
+              data-categories="ui-ux"
+              href="https://www.figma.com/proto/AkduoLYiVMkJeKHpJtl1pP/iFIT?node-id=1-879&t=CVooTJdBm93x4Bwc-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A879&page-id=0%3A1"
+              aria-label="View iFIT project"
+            >
+              <img src="./public/assets/ifit.png" alt="iFIT fitness experience design project" />
+              <span class="card-action">Open Project</span>
+            </a>
+            <a
+              class="project-card"
+              data-categories="illustration"
+              href="https://www.figma.com/proto/nmT6mH8jTprGxqGfpNTpkm/Jelly-Vision?node-id=1-141&t=tAdtORb9gJsAL7nx-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A141&page-id=0%3A1"
+              aria-label="View Jelly Vision project"
+            >
+              <img src="./public/assets/jelly-vision.png" alt="Jelly Vision character illustration" />
+              <span class="card-action">Open Project</span>
+            </a>
+            <a
+              class="project-card"
+              data-categories="illustration ui-ux"
+              href="https://www.figma.com/proto/8DpnTSYFTFlyDDpzj58jg6/Chec?node-id=1-5746&t=FSy0Ow5GFrpwWudH-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A5746&page-id=0%3A1"
+              aria-label="View Chec project"
+            >
+              <img src="./public/assets/chec.png" alt="Chec health product and identity design" />
+              <span class="card-action">Open Project</span>
+            </a>
+            <a
+              class="project-card"
+              data-categories="illustration ui-ux"
+              href="https://www.figma.com/proto/UfqMHDL0XxAZz4J1wcuqyW/Little-Nugget?node-id=1-151&t=R2xpsVCAoVg62d7D-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A151&page-id=0%3A1"
+              aria-label="View Little Nugget project"
+            >
+              <img src="./public/assets/little-nugget.png" alt="Little Nugget family app and character design" />
+              <span class="card-action">Open Project</span>
+            </a>
+            <a
+              class="project-card"
+              data-categories="illustration print"
+              href="https://www.figma.com/proto/MZN3j5BAENmOjSlboEwUUU/Early-Choices?node-id=0-143&t=Y4B8Lw84MnhTXz2A-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=0%3A143&page-id=0%3A1"
+              aria-label="View Early Choices project"
+            >
+              <img src="./public/assets/early-choices.png" alt="Early Choices educational illustration" />
+              <span class="card-action">Open Project</span>
+            </a>
+            <a
+              class="project-card"
+              data-categories="illustration print"
+              href="https://www.figma.com/proto/jUMEBs3OmFe4vowcQhsxch/164-Soda?node-id=1-158&t=6L7mpv2sQGHfDlVy-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A158&page-id=0%3A1"
+              aria-label="View 164 Soda project"
+            >
+              <img src="./public/assets/164-soda.png" alt="164 Soda packaging design and illustrations" />
+              <span class="card-action">Open Project</span>
+            </a>
+            <a
+              class="project-card"
+              data-categories="illustration print"
+              href="https://www.figma.com/proto/drbEALwf1lQnxTVrUy7KQt/Griffin-Apotheca?node-id=1-141&t=0FbaJv2sz6baedCN-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A141&page-id=0%3A1"
+              aria-label="View Griffin Apotheca project"
+            >
+              <img src="./public/assets/griffin-apotheca.png" alt="Griffin Apotheca beverage packaging design" />
+              <span class="card-action">Open Project</span>
+            </a>
+            <a
+              class="project-card"
+              data-categories="illustration"
+              href="https://www.figma.com/proto/irKXSBz7gsSdGCLuxTplmu/Raid?node-id=1-140&t=TKukCNHpVzEBAvCp-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A140&page-id=0%3A1"
+              aria-label="View Raid project"
+            >
+              <img src="./public/assets/raid.png" alt="Raid pest control campaign illustration" />
+              <span class="card-action">Open Project</span>
+            </a>
+          </div>
+        </section>
+
+        <footer class="site-footer">
+          <p>Copyright© 2026 - All rights reserved to the Artist / Designer and the client being displayed.</p>
+        </footer>
+      </main>
+
+      <nav class="mobile-rail-navigation" aria-label="Portfolio pages">
+        <a class="mobile-rail-link is-current" href="#top" aria-label="Work" aria-current="page">
+          <img src="./public/assets/icon-work.svg" alt="" />
+        </a>
+        <a
+          class="mobile-rail-link"
+          href="https://www.figma.com/proto/F0BdTJCjn0zjMowlaY52kU/Personal-Art?node-id=1-141&t=hxmG1kaAS4b7qS7L-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A141&page-id=0%3A1"
+          aria-label="Personal art"
+        >
+          <img src="./public/assets/icon-art.svg" alt="" />
+        </a>
+        <a
+          class="mobile-rail-link"
+          href="https://www.figma.com/proto/V4iBNOv0OHy3gOcvatjWwP/About?node-id=1-140&t=tWozvGBK4ArHwRSt-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A140&page-id=0%3A1"
+          aria-label="About"
+        >
+          <img src="./public/assets/icon-about.svg" alt="" />
+        </a>
+        <a
+          class="mobile-rail-link"
+          href="https://www.figma.com/proto/0L2cQ3PrY207S2JnLJclKY/Resume?node-id=0-141&t=jGyYkCIMf4TGrZ0l-0&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=0%3A141&page-id=0%3A1"
+          aria-label="Resume"
+        >
+          <img src="./public/assets/icon-resume.svg" alt="" />
+        </a>
+      </nav>
+    </div>
+  </body>
+</html>

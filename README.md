@@ -1,7 +1,9 @@
 # CJWebsite
 
-Portfolio website project for Christian Jackson.
+Responsive portfolio website for Christian Jackson.
 
-## Development
+## Run locally
 
-Implementation details and setup instructions will be added as the site foundation is established.
+Open `index.html` in a browser. The site uses plain HTML, CSS, and JavaScript and has no package installation step.
+
+Portfolio artwork and interface marks in `public/assets/` are local exports from the Home Figma file.
