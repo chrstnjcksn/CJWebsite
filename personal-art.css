@@ -29,8 +29,16 @@
   gap: 22px;
 }
 
+.print-category {
+  gap: 50px;
+}
+
 .art-category-panel--prints {
   gap: 132px;
+}
+
+#instagram-art {
+  gap: 50px;
 }
 
 .art-category-panel[hidden] {
@@ -58,10 +66,15 @@
   color: var(--ink);
 }
 
-.art-heading--intro h1,
-.art-heading--gallery h2 {
+.art-heading--intro h1 {
   font-size: 51px;
   letter-spacing: 1.02px;
+}
+
+.art-heading--gallery h2 {
+  color: var(--ink);
+  font-size: 28px;
+  letter-spacing: 0.56px;
 }
 
 .art-heading--intro p {
@@ -265,6 +278,7 @@
   align-items: center;
   justify-content: space-between;
   gap: 24px;
+  margin-top: 100px;
   padding: 32px;
   border-radius: 20px;
   background: var(--lavender);
@@ -308,7 +322,6 @@
 .back-to-top img {
   width: 24px;
   height: 24px;
-  filter: brightness(0) invert(1);
 }
 
 .back-to-top:focus-visible,
@@ -357,8 +370,7 @@
     gap: 80px;
   }
 
-  .art-heading--intro h1,
-  .art-heading--gallery h2 {
+  .art-heading--intro h1 {
     font-size: 38px;
     letter-spacing: 0.76px;
   }
