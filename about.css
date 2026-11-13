@@ -2,6 +2,18 @@
   gap: 0;
 }
 
+.about-page .rail-link.is-current {
+  background: var(--lavender);
+}
+
+.about-page .rail-link.is-current img {
+  filter: none;
+}
+
+.about-page .rail-link.is-current .rail-link-label {
+  color: var(--ink);
+}
+
 .about-page-content {
   display: flex;
   width: 100%;
@@ -43,7 +55,7 @@
   width: min(100%, 692.986px);
   flex-direction: column;
   align-items: stretch;
-  color: #262626;
+  color: var(--ink);
 }
 
 .about-copy h1,
@@ -54,7 +66,7 @@
 
 .about-copy h1 {
   margin-bottom: 51px;
-  color: #111545;
+  color: var(--ink);
   font-size: 84px;
   font-weight: 700;
   letter-spacing: -1.68px;
@@ -326,8 +338,8 @@
   gap: 12px;
   padding: 8px 24px 8px 16px;
   border-radius: 70px;
-  background: var(--ink);
-  color: var(--paper);
+  background: var(--lavender);
+  color: var(--ink);
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.56px;
@@ -335,7 +347,7 @@
 }
 
 .about-back-to-top:hover {
-  background: #231d87;
+  background: #c3c0e0;
 }
 
 .about-back-to-top img {
